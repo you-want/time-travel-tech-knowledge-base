@@ -290,9 +290,10 @@ body {
   border-bottom: none !important;
 }
 
-/* 隐藏 logo */
-.md-header__button--home {
-  display: none !important;
+/* logo 样式 */
+.md-header__button--home svg {
+  width: 28px !important;
+  height: 28px !important;
 }
 
 /* 图标颜色 */
@@ -307,34 +308,6 @@ body {
 /* 标题样式 */
 .md-header__title {
   padding: 0 !important;
-}
-
-.md-header__title .md-header__ellipsis {
-  display: flex !important;
-  align-items: center !important;
-}
-
-.md-header__title .md-header__topic {
-  display: flex !important;
-  align-items: center !important;
-  gap: 0.5rem !important;
-}
-
-.md-header__title .md-header__topic::before {
-  content: "古技";
-  display: inline-flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-  width: 22px !important;
-  height: 22px !important;
-  background: #C41E3A !important;
-  border-radius: 1px !important;
-  font-size: 0.65rem !important;
-  color: #F5EDDF !important;
-  font-weight: 700 !important;
-  font-family: "STSong", "SimSun", serif !important;
-  flex-shrink: 0 !important;
-  letter-spacing: 0 !important;
 }
 
 .md-header__title .md-header__topic .md-ellipsis {
