@@ -286,12 +286,8 @@ body {
 /* 主导航栏 — 深色极简 */
 .md-header {
   background: #1A1410 !important;
-  box-shadow: none;
-  border-bottom: none;
-}
-
-.md-header__inner {
-  height: 60px;
+  box-shadow: none !important;
+  border-bottom: none !important;
 }
 
 /* 隐藏 logo */
@@ -299,7 +295,7 @@ body {
   display: none !important;
 }
 
-/* 汉堡按钮 */
+/* 图标颜色 */
 .md-header__button.md-icon {
   color: #C9A96E !important;
 }
@@ -308,64 +304,56 @@ body {
   fill: #C9A96E !important;
 }
 
-/* 标题区域 */
+/* 标题样式 */
 .md-header__title {
-  padding: 0;
+  padding: 0 !important;
 }
 
 .md-header__title .md-header__ellipsis {
-  display: flex;
-  align-items: center;
+  display: flex !important;
+  align-items: center !important;
 }
 
 .md-header__title .md-header__topic {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  position: relative;
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.5rem !important;
 }
 
 .md-header__title .md-header__topic::before {
   content: "古技";
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 22px;
-  height: 22px;
-  background: #C41E3A;
-  border-radius: 1px;
-  font-size: 0.65rem;
-  color: #F5EDDF;
-  font-weight: 700;
-  font-family: "STSong", "SimSun", serif;
-  flex-shrink: 0;
-  letter-spacing: 0;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 22px !important;
+  height: 22px !important;
+  background: #C41E3A !important;
+  border-radius: 1px !important;
+  font-size: 0.65rem !important;
+  color: #F5EDDF !important;
+  font-weight: 700 !important;
+  font-family: "STSong", "SimSun", serif !important;
+  flex-shrink: 0 !important;
+  letter-spacing: 0 !important;
 }
 
 .md-header__title .md-header__topic .md-ellipsis {
   color: #E8D5A3 !important;
   font-size: 0.95rem !important;
   font-weight: 500 !important;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.08em !important;
 }
 
 /* 搜索框 */
-.md-search {
-  padding: 0 !important;
-}
-
 .md-search__form {
   background: rgba(201, 169, 110, 0.15) !important;
   border: 1px solid rgba(201, 169, 110, 0.35) !important;
   border-radius: 3px !important;
-  height: 32px !important;
-  width: 160px !important;
 }
 
 .md-search__input {
   color: #E8D5A3 !important;
   font-family: var(--md-font-family) !important;
-  font-size: 0.78rem !important;
 }
 
 .md-search__input::placeholder {
@@ -408,21 +396,13 @@ body {
   background: #1A1410 !important;
   border-top: 1px solid rgba(201, 169, 110, 0.15);
   border-bottom: 1px solid rgba(201, 169, 110, 0.25);
-  height: 48px;
-}
-
-.md-tabs__list {
-  height: 48px;
 }
 
 .md-tabs__link {
   color: rgba(232, 213, 163, 0.85) !important;
   font-size: 0.88rem !important;
   font-weight: 400 !important;
-  letter-spacing: 0.06em;
-  height: 48px;
-  line-height: 48px !important;
-  padding: 0 1rem !important;
+  letter-spacing: 0.06em !important;
 }
 
 .md-tabs__link:hover {
@@ -437,24 +417,13 @@ body {
 
 .md-tabs__item--active .md-tabs__link::after {
   content: "";
-  position: absolute;
-  bottom: 0;
-  left: 1rem;
-  right: 1rem;
-  height: 2px;
-  background: #C41E3A;
-  border-radius: 1px 1px 0 0;
-}
-
-/* 响应式调整 */
-@media screen and (max-width: 48em) {
-  .md-search__form {
-    width: 120px !important;
-  }
-  
-  .md-source__repository {
-    display: none;
-  }
+  position: absolute !important;
+  bottom: 0 !important;
+  left: 1rem !important;
+  right: 1rem !important;
+  height: 2px !important;
+  background: #C41E3A !important;
+  border-radius: 1px 1px 0 0 !important;
 }
 
 /* === 侧边栏 === */
@@ -706,12 +675,12 @@ body {
 /* === 大屏适配 === */
 @media screen and (min-width: 90rem) {
   :root {
-    --md-grid-max-width: 95rem;
+    --md-grid-max-width: 100rem;
     --md-grid-gutter: 2rem;
   }
   
   .md-grid {
-    max-width: 95rem;
+    max-width: 100rem;
   }
   
   .md-typeset {
@@ -743,12 +712,12 @@ body {
 
 @media screen and (min-width: 100rem) {
   :root {
-    --md-grid-max-width: 100rem;
+    --md-grid-max-width: 110rem;
     --md-grid-gutter: 2.5rem;
   }
   
   .md-grid {
-    max-width: 100rem;
+    max-width: 110rem;
   }
   
   .md-typeset {
@@ -770,5 +739,37 @@ body {
   
   .md-search__form {
     width: 200px !important;
+  }
+}
+
+@media screen and (min-width: 120rem) {
+  :root {
+    --md-grid-max-width: 130rem;
+    --md-grid-gutter: 3rem;
+  }
+  
+  .md-grid {
+    max-width: 130rem;
+  }
+  
+  .md-typeset {
+    font-size: 1.15rem;
+  }
+  
+  .md-content {
+    padding: 2rem 2.8rem;
+    margin: 1.8rem 2rem 1.8rem 0.2rem;
+  }
+  
+  .md-typeset h1 {
+    font-size: 2.1rem;
+  }
+  
+  .md-typeset h2 {
+    font-size: 1.55rem;
+  }
+  
+  .md-search__form {
+    width: 220px !important;
   }
 }
