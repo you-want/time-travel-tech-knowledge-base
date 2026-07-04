@@ -1,0 +1,41 @@
+<!-- custom footer -->
+<footer class="md-footer">
+  {% if page.previous_url or page.next_url %}
+    {% if page.prev_page and not page.meta.no_prev %}
+      <a href="{{ page.previous_url }}" class="md-footer__link md-footer__prev" aria-label="{{ lang.t('footer.prev') }}">
+        <div class="md-footer__button md-icon">
+          {% include ".icons/material/arrow-left" ~ ".svg" %}
+        </div>
+        <div class="md-footer__direction">
+          <span class="md-footer__title">{{ lang.t('footer.prev') }}</span>
+        </div>
+      </a>
+    {% endif %}
+    {% if page.next_page and not page.meta.no_next %}
+      <div class="md-footer__divider"></div>
+      <a href="{{ page.next_url }}" class="md-footer__link md-footer__next" aria-label="{{ lang.t('footer.next') }}">
+        <div class="md-footer__direction">
+          <span class="md-footer__title">{{ lang.t('footer.next') }}</span>
+        </div>
+        <div class="md-footer__button md-icon">
+          {% include ".icons/material/arrow-right" ~ ".svg" %}
+        </div>
+      </a>
+    {% endif %}
+  {% endif %}
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        {% if config.copyright %}
+          <div class="md-footer-copyright__highlight">
+            {{ config.copyright }}
+          </div>
+        {% endif %}
+        穿越古代现代技术知识库 &copy; 2026 TimeTravel Tech &middot; MIT License
+      </div>
+      <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener" class="md-footer-powered">
+        Powered by MkDocs Material
+      </a>
+    </div>
+  </div>
+</footer>

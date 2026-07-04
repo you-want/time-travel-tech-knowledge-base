@@ -1,0 +1,120 @@
+site_name: 穿越古代现代技术知识库
+site_description: 无电力、古代可复刻现代知识合集，农业医疗化工冶金工程全套
+site_author: TimeTravel Tech
+site_url: https://yourusername.github.io/time-travel-tech-knowledge-base
+
+repo_name: time-travel-tech-knowledge-base
+repo_url: https://github.com/yourusername/time-travel-tech-knowledge-base
+
+theme:
+  name: material
+  language: zh
+  custom_dir: overrides
+
+  font:
+    text: Noto Serif SC
+    code: Source Code Pro
+
+  favicon: false
+  logo: false
+
+  palette:
+    # Primary (warm sepia)
+    - scheme: default
+      primary: white
+      accent: "#8B4513"
+      fg: "#2C1810"
+      bg: "#FDF6EC"
+    - scheme: slate
+      primary: white
+      accent: "#C49A6C"
+      fg: "#FDF6EC"
+      bg: "#2C1810"
+
+  icon:
+    repo: fontawesome/brands/github
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.tracking
+    - search.suggest
+    - search.highlight
+    - content.code.annotate
+    - content.tabs.link
+
+extra_css:
+  - https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700&family=Source+Code+Pro:wght@400;500;600&display=swap
+  - css/ancient.css
+
+plugins:
+  - search:
+      lang: zh
+  - minify:
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/yourusername/time-travel-tech-knowledge-base
+  generator: false
+
+markdown_extensions:
+  - toc:
+      permalink: true
+      permalink_title: 锚定此节
+  - tables:
+  - attr_list:
+  - md_in_html:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite:
+  - pymdownx.snippets:
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.critic:
+  - pymdownx.caret:
+  - pymdownx.keys:
+  - pymdownx.mark:
+  - pymdownx.tilde:
+  - footnotes:
+
+nav:
+  - 首页: index.md
+  - 落地总路线: roadmap.md
+  - 农桑:
+      - 堆肥与有机肥: agriculture/compost-fertilizer.md
+      - 作物育种人工授粉: agriculture/seed-breeding.md
+      - 简易水利灌溉: agriculture/irrigation.md
+      - 土法防虫: agriculture/pest-control.md
+  - 医理:
+      - 消毒杀菌基础: medical-health/disinfection.md
+      - 大规模瘟疫防控: medical-health/plague-prevent.md
+      - 通用现场急救: medical-health/first-aid.md
+      - 缺维生素对应食疗: medical-health/nutrition-deficiency.md
+  - 百工:
+      - 土法制肥皂: daily-chemistry/soap-make.md
+      - 草木灰提取碱水: daily-chemistry/alkali-extract.md
+      - 白糖脱色提纯: daily-chemistry/sugar-refine.md
+      - 明矾净水工艺: daily-chemistry/alum-water-purify.md
+      - 标准安全黑火药: daily-chemistry/black-powder.md
+  - 冶铸:
+      - 改良高炉炼铁: metallurgy-forging/blast-furnace-improve.md
+      - 铁器淬火回火: metallurgy-forging/quenching-temper.md
+      - 青铜黄铜合金配比: metallurgy-forging/bronze-alloy.md
+  - 营造:
+      - 土法防水水泥: architecture-mechanic/ancient-concrete.md
+      - 拱桥与承重结构: architecture-mechanic/arch-structure.md
+      - 水车与省力滑轮: architecture-mechanic/water-mill-upgrade.md
+  - 算学:
+      - 阿拉伯数字速算: math-measurement/arab-numbers.md
+      - 勾股测距测地: math-measurement/pythagoras-measure.md
+      - 统计台账管理: math-measurement/statistics-manage.md
+  - 远工（多年布局）:
+      - 土法蒸馏酸碱: long-term-industry/vitriol-distill.md
+      - 简易铜锌电池: long-term-industry/volta-battery.md
+      - 蒸汽机原理与瓶颈: long-term-industry/steam-theory.md
+  - 避坑:
+      - 电力芯片相关全部作废: limits/electric-tech.md
+      - 精密机械高分子材料: limits/high-precision.md
+      - 现代社会体系无法落地: limits/modern-system.md
