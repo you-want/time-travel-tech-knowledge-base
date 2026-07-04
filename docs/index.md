@@ -118,6 +118,8 @@
 <a href="#农桑" class="quick-link">🌾 农桑</a>
 <a href="#医理" class="quick-link">🏥 医理</a>
 <a href="#百工" class="quick-link">⚗️ 百工</a>
+<a href="#航海" class="quick-link">🚢 航海</a>
+<a href="#纺织" class="quick-link">🧵 纺织</a>
 <a href="#避坑" class="quick-link">⚠️ 避坑指南</a>
 <a href="rag-config/rag-import-guide.html" class="quick-link">🤖 AI 检索</a>
 </div>
@@ -322,6 +324,28 @@
 <div class="card-title">蒸汽机原理与瓶颈</div>
 <div class="card-desc">热能转机械能，但古代造不出来</div>
 <div class="card-tags"><span class="tag">数年</span><span class="tag">#基建改造</span><span class="tag">#不可行</span></div>
+</div>
+</div>
+
+### 航海
+
+<div class="knowledge-grid">
+<div class="knowledge-card">
+<span class="card-icon">🚢</span>
+<div class="card-title">造船与航海导航</div>
+<div class="card-desc">木板船+磁石罗盘+季风规律，跨海贸易与军事投送</div>
+<div class="card-tags"><span class="tag">1个月~半年</span><span class="tag">#基建改造</span><span class="tag">#高收益</span></div>
+</div>
+</div>
+
+### 纺织
+
+<div class="knowledge-grid">
+<div class="knowledge-card">
+<span class="card-icon">🧵</span>
+<div class="card-title">纺车升级与植物染色</div>
+<div class="card-desc">从手搓到纺车，从单色到七彩，一件衣服的价值翻十倍</div>
+<div class="card-tags"><span class="tag">当日~1个月</span><span class="tag">#高收益</span><span class="tag">#低成本</span></div>
 </div>
 </div>
 

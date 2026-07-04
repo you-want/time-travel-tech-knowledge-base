@@ -59,6 +59,7 @@ mkdocs gh-deploy
 | [作物育种与人工授粉](docs/agriculture/seed-breeding.md) | 当日落地 | #低成本手工 #增产 |
 | [简易水利灌溉](docs/agriculture/irrigation.md) | 当日落地 | #基建改造 #无电力 |
 | [土法防虫](docs/agriculture/pest-control.md) | 当日落地 | #低成本手工 #防疫 |
+| [各地气候与农业](docs/agriculture/climate-regions.md) | 当日落地 | #增产 #因地制宜 |
 
 ### 🏥 医疗防疫急救 — 救人性命
 
@@ -78,6 +79,7 @@ mkdocs gh-deploy
 | [白糖脱色提纯](docs/daily-chemistry/sugar-refine.md) | 1个月可量产 | #低成本手工 #高收益 |
 | [明矾净水工艺](docs/daily-chemistry/alum-water-purify.md) | 当日落地 | #防疫 #低成本手工 |
 | [标准安全黑火药](docs/daily-chemistry/black-powder.md) | 1个月可量产 | #高收益 #官府建功 |
+| [纺织与植物染色](docs/daily-chemistry/textile-dye.md) | 1个月可量产 | #高收益 #低成本手工 |
 
 ### 🔩 冶金锻造改良
 
@@ -94,6 +96,7 @@ mkdocs gh-deploy
 | [土法防水水泥](docs/architecture-mechanic/ancient-concrete.md) | 1个月可量产 | #基建改造 |
 | [拱桥与承重结构](docs/architecture-mechanic/arch-structure.md) | 1个月可量产 | #基建改造 |
 | [水车与省力滑轮](docs/architecture-mechanic/water-mill-upgrade.md) | 当日落地 | #基建改造 #无电力 |
+| [造船与航海导航](docs/architecture-mechanic/navigation.md) | 1个月可量产 | #基建改造 #高收益 |
 
 ### 📐 测绘数理记账
 
@@ -146,10 +149,25 @@ time-travel-tech-knowledge-base/
 │   ├── index.md            # 知识库首页
 │   ├── roadmap.md          # 穿越分阶段落地路线
 │   ├── agriculture/        # 农业类
+│   │   ├── compost-fertilizer.md
+│   │   ├── seed-breeding.md
+│   │   ├── irrigation.md
+│   │   ├── pest-control.md
+│   │   └── climate-regions.md  # 各地气候与农业
 │   ├── medical-health/     # 医疗防疫类
 │   ├── daily-chemistry/    # 日用化工类
+│   │   ├── soap-make.md
+│   │   ├── alkali-extract.md
+│   │   ├── sugar-refine.md
+│   │   ├── alum-water-purify.md
+│   │   ├── black-powder.md
+│   │   └── textile-dye.md  # 纺织与植物染色
 │   ├── metallurgy-forging/ # 冶金锻造类
 │   ├── architecture-mechanic/ # 建筑机械类
+│   │   ├── ancient-concrete.md
+│   │   ├── arch-structure.md
+│   │   ├── water-mill-upgrade.md
+│   │   └── navigation.md  # 造船与航海导航
 │   ├── math-measurement/   # 数理测绘类
 │   ├── long-term-industry/ # 长期工业类
 │   ├── limits/             # 避坑合集

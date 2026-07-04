@@ -31,6 +31,7 @@
 | ⭐⭐ | 急救 | [现场急救](medical-health/first-aid.md) | 减少意外死亡 |
 | ⭐⭐ | 防虫 | [草木灰驱虫](agriculture/pest-control.md) | 保护庄稼 |
 | ⭐ | 灌溉 | [简易水利](agriculture/irrigation.md) | 抗旱保收 |
+| ⭐ | 气候农业 | [各地气候与农业](agriculture/climate-regions.md) | 因地制宜调整技术 |
 
 **本阶段核心原则**：不追求产量，先确保不死人、不饿肚子。
 
@@ -47,6 +48,7 @@
 | ⭐⭐ | 水泥 | [土法水泥](architecture-mechanic/ancient-concrete.md) | 建筑更坚固防水 |
 | ⭐⭐ | 算术 | [阿拉伯数字速算](math-measurement/arab-numbers.md) | 记账、贸易效率大幅提升 |
 | ⭐ | 糖精 | [白糖提纯](daily-chemistry/sugar-refine.md) | 高利润商品 |
+| ⭐⭐ | 纺织 | [纺车与染色](daily-chemistry/textile-dye.md) | 从御寒到致富 |
 
 **本阶段核心原则**：用低投入换取高回报，开始有盈余可以投资下一阶段。
 
@@ -61,6 +63,7 @@
 | ⭐⭐ | 合金 | [铜锌合金配比](metallurgy-forging/bronze-alloy.md) | 货币、器具品质提升 |
 | ⭐ | 电池 | [简易铜锌电池](long-term-industry/volta-battery.md) | 电学实验基础 |
 | ⭐ | 蒸汽 | [蒸汽机理论](long-term-industry/steam-theory.md) | 工业革命起点 |
+| ⭐⭐ | 航海 | [造船与导航](architecture-mechanic/navigation.md) | 跨海贸易与军事 |
 
 **本阶段核心原则**：此时你已不是"穿越者"，而是地方的技术领袖。每一步都依赖前两个阶段的积累。
 
@@ -82,4 +85,4 @@
 
 - 了解各阶段具体技术细节 → 对应分类下的技术文档
 - 哪些技术根本做不到 → [古代无法实现技术避坑](limits/electric-tech.md)
-- AI 检索知识库接入 → （预留功能，待开发）
+- AI 检索知识库接入 → [rag-import-guide.md](../../rag-config/rag-import-guide.md)

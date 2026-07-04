@@ -87,6 +87,7 @@ nav:
       - 作物育种人工授粉: agriculture/seed-breeding.md
       - 简易水利灌溉: agriculture/irrigation.md
       - 土法防虫: agriculture/pest-control.md
+      - 各地气候与农业: agriculture/climate-regions.md
   - 医理:
       - 消毒杀菌基础: medical-health/disinfection.md
       - 大规模瘟疫防控: medical-health/plague-prevent.md
@@ -98,6 +99,7 @@ nav:
       - 白糖脱色提纯: daily-chemistry/sugar-refine.md
       - 明矾净水工艺: daily-chemistry/alum-water-purify.md
       - 标准安全黑火药: daily-chemistry/black-powder.md
+      - 纺织与植物染色: daily-chemistry/textile-dye.md
   - 冶铸:
       - 改良高炉炼铁: metallurgy-forging/blast-furnace-improve.md
       - 铁器淬火回火: metallurgy-forging/quenching-temper.md
@@ -106,6 +108,7 @@ nav:
       - 土法防水水泥: architecture-mechanic/ancient-concrete.md
       - 拱桥与承重结构: architecture-mechanic/arch-structure.md
       - 水车与省力滑轮: architecture-mechanic/water-mill-upgrade.md
+      - 造船与航海导航: architecture-mechanic/navigation.md
   - 算学:
       - 阿拉伯数字速算: math-measurement/arab-numbers.md
       - 勾股测距测地: math-measurement/pythagoras-measure.md
