@@ -25,5 +25,6 @@ assets/
 ## 在文档中引用
 
 ```markdown
+<!-- 以下为示例引用格式，实际使用时替换为真实图片路径 -->
 ![堆肥构造示意图](../assets/agriculture/compost-pile-diagram.png)
 ```

@@ -82,4 +82,4 @@
 
 - 了解各阶段具体技术细节 → 对应分类下的技术文档
 - 哪些技术根本做不到 → [古代无法实现技术避坑](limits/electric-tech.md)
-- AI 检索知识库接入 → [rag-import-guide.md](../../rag-config/rag-import-guide.md)
+- AI 检索知识库接入 → （预留功能，待开发）
